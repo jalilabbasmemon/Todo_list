@@ -2,9 +2,9 @@ import mysql from "mysql2";
 
 const db = mysql.createConnection({
   host: "localhost",
-  user: "root",          // your MySQL username
-  password: "root", // your MySQL password
-  database: "todolist_db",
+  user: "user",          // your MySQL username
+  password: "password", // your MySQL password
+  database: "db_name",
    multipleStatements: true  
 });
 
