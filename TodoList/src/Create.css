@@ -1,0 +1,75 @@
+/* ================================
+   Form Container
+================================ */
+.Create {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;   /* keep left aligned */
+  gap: 12px;                     /* space between label, input, button */
+  background-color: #fff;
+  padding: 12px 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+}
+
+/* ================================
+   Label
+================================ */
+.Create label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  white-space: nowrap;
+}
+
+/* ================================
+   Input Field
+================================ */
+.Create input {
+  flex: 1;                        /* grow to fill space */
+  min-width: 240px;
+  max-width: 400px;
+  height: 38px;
+  padding: 0 12px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Create input:focus {
+  border-color: #5c4242;
+  box-shadow: 0 0 4px rgba(92, 66, 66, 0.5);
+}
+
+.Create input::placeholder {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* ================================
+   Button
+================================ */
+.Create button {
+  background-color: #5c4242;
+  color: #fff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Create button:hover {
+  background-color: #402d2d;
+  transform: scale(1.05);
+}
+
+.Create button:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,135 @@
+.content {
+  margin: 20px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 8px;
+}
+
+.content h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.todo-table th, .todo-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.todo-table th {
+  background-color: #333;
+  color: white;
+}
+
+.todo-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.todo-table tr:hover {
+  background-color: #e0f7fa;
+}
+
+.delete-btn {
+  background-color: crimson;
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+.todo-table td,
+.todo-table th {
+  padding: 10px;
+  text-align: center;
+}
+
+.done-btn {
+  background-color: seagreen;
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-right: 6px;
+}
+
+.done-btn:hover {
+  background-color: darkgreen;
+}
+
+.delete-btn {
+  background-color: crimson;
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+.edit-btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.edit-btn:hover {
+  background-color: royalblue;
+}
+
+.save-btn {
+  background-color: seagreen;
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.save-btn:hover {
+  background-color: darkgreen;
+}
+
+.cancel-btn {
+  background-color: gray;
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background-color: dimgray;
+}
+
+.edit-input {
+  padding: 4px 8px;
+  font-size: 0.9rem;
+  width: 90%;
+}
+
+

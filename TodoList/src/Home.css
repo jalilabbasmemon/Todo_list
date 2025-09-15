@@ -1,0 +1,45 @@
+.home {
+  background-color: darkcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Fancy Title Styling */
+#title {
+  position: relative;
+  background: linear-gradient(135deg, #324284, #4b6cb7);
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+  padding: 15px 50px;
+  display: inline-block;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  letter-spacing: 1px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  cursor: default;
+}
+
+/* Hover effect */
+#title:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.35);
+}
+
+/* Optional subtle glowing animation */
+@keyframes glow {
+  0% { box-shadow: 0 0 8px #4b6cb7, 0 0 16px #4b6cb7; }
+  50% { box-shadow: 0 0 16px #324284, 0 0 24px #4b6cb7; }
+  100% { box-shadow: 0 0 8px #4b6cb7, 0 0 16px #4b6cb7; }
+}
+
+#title.glow {
+  animation: glow 2s infinite alternate;
+}
